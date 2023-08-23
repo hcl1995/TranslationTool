@@ -1,0 +1,24 @@
+{
+    "name": "translation-conversion",
+    "version": "1.0.0",
+    "description": "What It Does?\r 1. Converts JSON File To Excel File\r 2. Converts Excel File To JSON File",
+    "main": "index.js",
+    "dependencies": {
+        "xlsx": "^0.18.2",
+        "chalk": "^4.1.1"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://git.superior88.com/cl.how/translation-conversion.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bin": {
+        "translate-json": "./json2excel.js",
+        "translate-excel": "./excel2json.js"
+    }
+}
